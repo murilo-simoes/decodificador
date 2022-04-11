@@ -1,0 +1,26 @@
+.container {
+    padding-top: 3rem;
+}
+
+.label {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.input {
+    min-width: 60%;
+    max-width: 60%;
+    max-height: 6rem;
+    min-height: 4rem;
+
+    border-radius: 1rem;
+    padding: 10px;
+    outline: none;
+    box-shadow: 0 0 1em rgb(43, 43, 43, 0.5);
+}
+
+.input:focus {
+    transition: all 0.6 ease-in-out;
+    border: 5px double rgba(80, 0, 145, 0.6);
+    
+}
