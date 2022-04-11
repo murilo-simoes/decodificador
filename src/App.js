@@ -9,6 +9,7 @@ import './App.css'
 
 function App() {
   const [ code, setCode ] = useState('')
+  const { encryptData, decryptData } = useEncrypt()
   const [ decode, setDecode ] = useState('')
   const [ tab, setTab ] = useState({
     page: 1,
@@ -16,7 +17,6 @@ function App() {
     lang: 'zenit'
   })
 
-  const { encryptData, decryptData } = useEncrypt()
 
   const handleClick = (i) => {
     setTab({
